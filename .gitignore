@@ -1,0 +1,51 @@
+# === Common system ignores ===
+*.log
+*.tmp
+*~
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+.directory
+
+# === Secrets and local env ===
+.env
+*.env
+.env.*
+*.local
+
+# === Godot ignores ===
+.import/
+export.cfg
+export_presets.cfg
+project.godot.lock
+
+# Nếu không dùng C#, có thể giữ dòng này:
+.mono/
+data_*/
+
+# Bỏ cache của Godot 4.x
+.godot/asset_cache/
+.godot/metadata/
+
+# Build/output
+build/
+builds/
+export/
+*.import
+*.translation
+
+# Android/iOS builds
+android/build/*
+*.apk
+*.aab
+*.ipa
+
+# Debug symbols
+*.debug
+*.dSYM
+
+# === IDE/editor config ===
+.vscode/
+*.code-workspace
+.idea/

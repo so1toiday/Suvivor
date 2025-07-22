@@ -1,0 +1,43 @@
+# Godot 4.4 - ignore these
+
+# Godot-generated import files
+.import/
+
+# Build output (HTML, Android, etc.)
+.build/
+.export/
+
+# Editor user data (local paths, layout...)
+.godot/
+
+# Export configuration
+export_presets.cfg
+export.cfg
+
+# OS-specific files
+*.tmp
+*.log
+*.db
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup and autosave files
+*.bak
+*.swp
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Mono (C#) – nếu bạn dùng C#
+.mono/
+*.csproj
+*.sln
+*.user
+*.mono/
+
+# Godot's script class cache
+.godot/mono/
+
+
