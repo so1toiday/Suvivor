@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://c15c7hbtejmmx"]
+
+[ext_resource type="Script" uid="uid://dmdrvhfhubhs0" path="res://scripts/spawner.gd" id="1_2vbf6"]
+
+[node name="spawner" type="Node2D"]
+script = ExtResource("1_2vbf6")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI"]
+offset_left = 1027.0
+offset_top = 52.0
+offset_right = 1086.0
+offset_bottom = 92.0
+
+[node name="minute" type="Label" parent="UI/HBoxContainer"]
+layout_mode = 2
+text = "00"
+
+[node name="lab" type="Label" parent="UI/HBoxContainer"]
+layout_mode = 2
+text = " : "
+
+[node name="second" type="Label" parent="UI/HBoxContainer"]
+layout_mode = 2
+text = "00"
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="pattern" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[node name="elite" type="Timer" parent="."]
+wait_time = 9.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,55 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=9 format=3 uid="uid://cputntk2upqx0"]
+
+[ext_resource type="Texture2D" uid="uid://dfqk0j526mtdn" path="res://png/Demon_1/Walk.png" id="1_iebt1"]
+[ext_resource type="Script" uid="uid://bt3teuqtx4pgm" path="res://scripts/Enemy_type.gd" id="2_bosbj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_apkdd"]
+atlas = ExtResource("1_iebt1")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_720pc"]
+atlas = ExtResource("1_iebt1")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1j862"]
+atlas = ExtResource("1_iebt1")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nlhqg"]
+atlas = ExtResource("1_iebt1")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fb1im"]
+atlas = ExtResource("1_iebt1")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j02ls"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_apkdd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_720pc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1j862")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nlhqg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fb1im")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[resource]
+script = ExtResource("2_bosbj")
+title = "demon1"
+healthy = 100.0
+dameage = 10.0
+frames = SubResource("SpriteFrames_j02ls")
+metadata/_custom_type_script = "uid://bt3teuqtx4pgm"

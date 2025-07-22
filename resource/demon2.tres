@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=16 format=3 uid="uid://d1r20gj46o58r"]
+
+[ext_resource type="Texture2D" uid="uid://bxv26d61xe00r" path="res://png/Demon_2/Walk.png" id="1_lsg8c"]
+[ext_resource type="Script" uid="uid://bt3teuqtx4pgm" path="res://scripts/Enemy_type.gd" id="2_gsk02"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ati70"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jff0p"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ovi2"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_me1xk"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_81731"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i57ul"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wninw"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lm5v1"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f02ys"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(1024, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wuqx2"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(1152, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_axlti"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jaeu1"]
+atlas = ExtResource("1_lsg8c")
+region = Rect2(1408, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cmy7g"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ati70")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jff0p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ovi2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_me1xk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_81731")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i57ul")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wninw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lm5v1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f02ys")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wuqx2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axlti")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jaeu1")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[resource]
+script = ExtResource("2_gsk02")
+title = "demon2"
+healthy = 100.0
+dameage = 10.0
+frames = SubResource("SpriteFrames_cmy7g")
+metadata/_custom_type_script = "uid://bt3teuqtx4pgm"
