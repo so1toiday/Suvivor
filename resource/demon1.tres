@@ -50,6 +50,6 @@ animations = [{
 script = ExtResource("2_bosbj")
 title = "demon1"
 healthy = 100.0
-dameage = 10.0
+damage = 10.0
 frames = SubResource("SpriteFrames_j02ls")
 metadata/_custom_type_script = "uid://bt3teuqtx4pgm"

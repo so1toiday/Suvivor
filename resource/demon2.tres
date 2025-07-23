@@ -99,6 +99,6 @@ animations = [{
 script = ExtResource("2_gsk02")
 title = "demon2"
 healthy = 100.0
-dameage = 10.0
+damage = 10.0
 frames = SubResource("SpriteFrames_cmy7g")
 metadata/_custom_type_script = "uid://bt3teuqtx4pgm"

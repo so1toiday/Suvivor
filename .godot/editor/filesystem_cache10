@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1753216008
+::res://::1753224894
 icon.svg::CompressedTexture2D/CompressedTexture2D::9050784405607347409::1753199082::1753216009::1::::<><><>0<>0<>bafc760477a513874526825da5358cd9<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 Licens.txt::TextFile/TextFile::-1::1753199081::0::1::::<><><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1753199081::0::1::::<><><>0<>0<><>::
@@ -26,7 +26,7 @@ joystick_tip_arrows.png::CompressedTexture2D/CompressedTexture2D::85482556980280
 ::res://d/::1753216011
 Screenshot_2025-07-22-01-05-25-26.jpg::CompressedTexture2D/CompressedTexture2D::1696665852306593890::1753199340::1753216011::1::::<><><>0<>0<>56585d9e0f292d391f2c678007e79789<>res://.godot/imported/Screenshot_2025-07-22-01-05-25-26.jpg-f19a13c4bb650e93ecd0128feae45094.ctex::
 ::res://objects/::1753217632
-enemy.tscn::PackedScene::8436269565947562390::1753217632::0::1::::<><><>0<>0<><>::uid://c68e3s86l5n8l::::res://scripts/enemy.gd
+enemy.tscn::PackedScene/PackedScene::8436269565947562390::1753217632::0::1::::<><><>0<>0<><>::uid://c68e3s86l5n8l::::res://scripts/enemy.gd
 player.tscn::PackedScene/PackedScene::4801438664414151513::1753199082::0::1::::<><><>0<>0<><>::uid://byy0hhs8e170q::::res://tres/player_animation.tres<>uid://csvb1im5wwlml::::res://scripts/player.gd
 ::res://png/::1753199083
 ::res://png/Demon_1/::1753216010
@@ -87,12 +87,12 @@ Walk.png::CompressedTexture2D/CompressedTexture2D::3644249577290725604::17531990
 demon1.tres::Resource/Enemy::5868139429866998783::1753216014::0::1::::<><><>0<>0<><>::uid://dfqk0j526mtdn::::res://png/Demon_1/Walk.png<>uid://bt3teuqtx4pgm::::res://scripts/Enemy_type.gd
 demon2.tres::Resource/Enemy::9020950741542458667::1753216014::0::1::::<><><>0<>0<><>::uid://bxv26d61xe00r::::res://png/Demon_2/Walk.png<>uid://bt3teuqtx4pgm::::res://scripts/Enemy_type.gd
 ::res://scenes/::1753217632
-main.tscn::PackedScene::3694469764372364017::1753217632::0::1::::<><><>0<>0<><>::uid://can381i22mbkr::::res://objects/player.tscn<>uid://dmr0fcamx7t56::::res://addons/virtual_joystick/virtual_joystick_scene.tscn<>uid://c15c7hbtejmmx::::res://scenes/spawner.tscn<>uid://dsguelblue85w::::res://objects/enemy.tscn<>uid://bt3teuqtx4pgm::::res://scripts/Enemy_type.gd<>uid://cputntk2upqx0::::res://resource/demon1.tres<>uid://d1r20gj46o58r::::res://resource/demon2.tres
+main.tscn::PackedScene/PackedScene::3694469764372364017::1753217632::0::1::::<><><>0<>0<><>::uid://can381i22mbkr::::res://objects/player.tscn<>uid://dmr0fcamx7t56::::res://addons/virtual_joystick/virtual_joystick_scene.tscn<>uid://c15c7hbtejmmx::::res://scenes/spawner.tscn<>uid://dsguelblue85w::::res://objects/enemy.tscn<>uid://bt3teuqtx4pgm::::res://scripts/Enemy_type.gd<>uid://cputntk2upqx0::::res://resource/demon1.tres<>uid://d1r20gj46o58r::::res://resource/demon2.tres
 spawner.tscn::PackedScene/PackedScene::6659861584064568839::1753199084::0::1::::<><><>0<>0<><>::uid://dmdrvhfhubhs0::::res://scripts/spawner.gd
 ::res://scripts/::1753217303
-enemy.gd::GDScript::7017113854072823009::1753216798::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.gd::GDScript/GDScript::7017113854072823009::1753216798::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Enemy_type.gd::GDScript/GDScript::3778973132046612172::1753199084::0::1::::Enemy<>Resource<><>0<>0<><>::
 player.gd::GDScript/GDScript::6079700073458128159::1753199084::0::1::::<>CharacterBody2D<><>0<>0<><>::
-spawner.gd::GDScript::8008791374279199617::1753217303::0::1::::<>Node2D<><>0<>0<><>::
+spawner.gd::GDScript/GDScript::8008791374279199617::1753217303::0::1::::<>Node2D<><>0<>0<><>::
 ::res://tres/::1753216014
-player_animation.tres::SpriteFrames::4122028819455513362::1753216014::0::1::::<><><>0<>0<><>::uid://bkl3un1ood0fu::::res://png/Witch_1/Dead.png<>uid://bh6wdmnjdn4rv::::res://png/Witch_1/Hurt.png<>uid://jnkn3e530g6n::::res://png/Witch_1/Idle.png<>uid://bjgs6fvou50ci::::res://png/Witch_1/Walk.png
+player_animation.tres::SpriteFrames/SpriteFrames::4122028819455513362::1753216014::0::1::::<><><>0<>0<><>::uid://bkl3un1ood0fu::::res://png/Witch_1/Dead.png<>uid://bh6wdmnjdn4rv::::res://png/Witch_1/Hurt.png<>uid://jnkn3e530g6n::::res://png/Witch_1/Idle.png<>uid://bjgs6fvou50ci::::res://png/Witch_1/Walk.png

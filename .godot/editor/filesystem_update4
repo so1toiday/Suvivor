@@ -1,0 +1,8 @@
+res://objects/enemy.tscn
+res://tres/player_animation.tres
+res://resource/demon1.tres
+res://resource/demon2.tres
+res://scenes/main.tscn
+res://objects/player.tscn
+res://scripts/player.gd
+res://scripts/Enemy_type.gd

@@ -1,16 +1,32 @@
-[gd_scene load_steps=4 format=3 uid="uid://can381i22mbkr"]
+[gd_scene load_steps=5 format=3 uid="uid://can381i22mbkr"]
 
 [ext_resource type="SpriteFrames" uid="uid://byy0hhs8e170q" path="res://tres/player_animation.tres" id="1_eqqp1"]
 [ext_resource type="Script" uid="uid://csvb1im5wwlml" path="res://scripts/player.gd" id="1_ykyjo"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sgp6g"]
+radius = 11.0
+height = 70.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ykyjo"]
+height = 70.0
 
 [node name="player" type="CharacterBody2D"]
 script = ExtResource("1_ykyjo")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 30)
 shape = SubResource("CapsuleShape2D_sgp6g")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = ExtResource("1_eqqp1")
 animation = &"walk"
+
+[node name="self_damage" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="self_damage"]
+position = Vector2(-1, 31)
+shape = SubResource("CapsuleShape2D_ykyjo")
+
+[connection signal="body_entered" from="self_damage" to="." method="_on_self_damage_body_entered"]

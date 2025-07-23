@@ -12,6 +12,11 @@
 
 [node name="player" parent="." instance=ExtResource("1_0wfyh")]
 
+[node name="spawner" parent="." node_paths=PackedStringArray("player") instance=ExtResource("3_jyhfs")]
+enemy = ExtResource("4_tbgi4")
+player = NodePath("../player")
+Enemy_types = Array[ExtResource("5_o6xl0")]([ExtResource("6_tipki"), ExtResource("7_85g3d")])
+
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
@@ -20,8 +25,3 @@
 offset_top = -300.0
 offset_bottom = 0.0
 joystick_mode = 1
-
-[node name="spawner" parent="." node_paths=PackedStringArray("player") instance=ExtResource("3_jyhfs")]
-enemy = ExtResource("4_tbgi4")
-player = NodePath("../player")
-Enemy_types = Array[ExtResource("5_o6xl0")]([ExtResource("6_tipki"), ExtResource("7_85g3d")])
